@@ -5,13 +5,15 @@ Using this tool, we can automatically search the given question in a mobile by j
 
 This tool is used to search the clipboard of a PC in a mobile using adb.
 
-------------------------------------------------------------------------------------------------------------------------------------------
+Use automate_search.pyw to run the script as a background process (in this way we can even bypass screen sharing feature during the exam).
+
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Requirements
 - pure-python-adb module
 - clipboard module
 
-------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Usage
 1. Enable USB debugging in your android device.
