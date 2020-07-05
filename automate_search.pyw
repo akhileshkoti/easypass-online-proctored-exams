@@ -11,12 +11,19 @@ devices=client.devices()
 device=devices[0]
 #print('Connected\n')
 while(True):
-        text=c.paste()
-        text=text.split()
-        text='%s'.join(text)
-        device.shell('input keyevent 84')
-        time.sleep(2)
-        device.shell('input text '+text)
-#        print(text)
-        device.shell('input keyevent 28')
-        device.shell('input keyevent 66')
+        devices=client.devices()
+        device=devices[0]
+#        print('Connected\n')
+        new=text=''
+        while(True):
+            text=c.paste()
+            text=text.split()
+            text='%s'.join(text)
+            if(new!=text):
+                device.shell('input keyevent 84')
+                time.sleep(2)
+                device.shell('input text '+text)
+                #print(text)
+                device.shell('input keyevent 28')
+                device.shell('input keyevent 66')
+                new=text
