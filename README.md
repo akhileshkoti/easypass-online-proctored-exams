@@ -22,4 +22,6 @@ Use automate_search.pyw to run the script as a background process (in this way w
 4. If you have any previous item in your clipboard it is going to be searched.
 5. After you have copied a new item now you have to press home button to initiate the next search.
 
+[Demo Video](https://youtu.be/R0_OlitWlEo)
+
 This code is inspired by [Wonderful Vamsi](https://github.com/wonderfulvamsi/Online-Exam-Software-Vulnerability)
